@@ -164,10 +164,22 @@
 #define MSG_BED_HEATING                     "Bed voorverw."
 #define MSG_BED_DONE                        "Bed is voorverw."
 
+<<<<<<< HEAD
 #define MSG_DELTA_CALIBRATE                 "Delta Calibratie"
 #define MSG_DELTA_CALIBRATE_X               "Kalibreer X"
 #define MSG_DELTA_CALIBRATE_Y               "Kalibreer Y"
 #define MSG_DELTA_CALIBRATE_Z               "Kalibreer Z"
 #define MSG_DELTA_CALIBRATE_CENTER          "Kalibreer Midden"
+=======
+#define MSG_RECTRACT                        "Terugtrekken"
+
+#ifdef DELTA_CALIBRATION_MENU
+    #define MSG_DELTA_CALIBRATE             "Delta Calibratie"
+    #define MSG_DELTA_CALIBRATE_X           "Kalibreer X"
+    #define MSG_DELTA_CALIBRATE_Y           "Kalibreer Y"
+    #define MSG_DELTA_CALIBRATE_Z           "Kalibreer Z"
+    #define MSG_DELTA_CALIBRATE_CENTER      "Kalibreer Midden"
+#endif // DELTA_CALIBRATION_MENU
+>>>>>>> origin/1.0.x
 
 #endif // LANGUAGE_NL_H
